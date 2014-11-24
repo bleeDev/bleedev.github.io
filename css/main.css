@@ -149,6 +149,7 @@ a:hover {
   line-height: 24px;
   max-width: 725px;
   clear: both;
+  margin-top: 10px;
 }
 
 .post h2 {
