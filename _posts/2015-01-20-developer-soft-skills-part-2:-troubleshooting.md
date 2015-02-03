@@ -2,7 +2,7 @@
 layout: post
 title: Developer Soft Skills Part 2 - Troubleshooting
 cover:
-date:   2015-01-20 21:00:00
+date:   2015-02-03 12:00:00
 categories: posts
 ---
 

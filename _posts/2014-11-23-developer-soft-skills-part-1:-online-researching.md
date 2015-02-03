@@ -2,7 +2,7 @@
 layout: post
 title: Developer Soft Skills Part 1 - Online Research
 cover:
-date:   2014-11-23 21:00:00
+date:   2015-02-01 21:00:00
 categories: posts
 ---
 
