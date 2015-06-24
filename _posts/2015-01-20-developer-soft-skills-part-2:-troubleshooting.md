@@ -11,6 +11,7 @@ categories: posts
 This part of the Developer soft skills is about finding and solving an issue. Most often in development these issues are referred to as bugs. Knowing which tools to use, where to look and how to squash a bug would allow a developer to spend less time fixing things. That gives us more time to make better code, develop new features and work on other projects. Or even more time to spend doing things that don't involve code (I know some people that actually do that).
 
 ##Finding the issue
+![Seraching](/images/blog/searching.jpg "Searching")
 First let's take a step back. Finding the issue is not the same as finding the symptom. Symptoms can come from several sources. QA specialists, end users, other developers and testing frameworks can all relate a symptom of an issue. Sometimes it is a complete lack of functionality. Other times its a failing feature or not acheiving an expected result. The first step in finding the bug is not going hunting for it. First we must reproduce the issue.
 
 Reproducing the issue will not only ensure that we are looking for the right bug, it will also give us clues as to where the bug is hiding. When talking to my manager about this he said: "Think about a problem that occurs on production but not in dev. What's different between the environments that might cause the issue? Does the bug only manifest itself on new builds, but not existing environments?" Once we can reproduce the bug, we are ready to find it. 
@@ -34,6 +35,7 @@ Profilers measure the performance of the code. This is less about what is causin
 Our last tool is probably one of the least assuming but helps analyze some of the most important pieces of troubleshooting data. An explorer (or analyzer or reader) is a tool for making it easier to traverse log data. Having a good explorer can turn hours of combing through txt files or rows in a database into a few minutes of targeted search and queries. Some of these tools are built into the OS, such as Console in OSX. Other can be found for the OS or code base that is being analyzed, such as http://goaccess.io/.
 
 ##Fixing the issue
+![Fixing](/images/blog/fixing.jpg "Fixing")
 So we found the issue. Now we need to fix it. Depending on experience this can be a simple or daunting task. There are times when 8-10 hours of troubleshooting will result in a few minutes of code updates. But if you don't know what to do next, there are a many resource at our disposal.
 
 There is a 4 letter acronym that has existed since the time that programs were invented (that may be an exaggeration) that gently reminded developers that the person that designed the software they were working with usually provided documentation. This is still true now. Documentation can be spread through various different channels. If the issue is related to the language the application is written, most languages have extensive documentation on how the language should be used properly to resolve the issue. 
